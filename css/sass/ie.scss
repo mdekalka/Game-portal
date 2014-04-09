@@ -1,0 +1,83 @@
+/* var	 */
+@import "compass";
+$img-dir:"../img/";
+
+
+.meta {  background: none repeat scroll 0 0 rgb(56, 61, 68); -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)"; filter: alpha(opacity=90); }
+
+.section .meta .meta-games  { padding:0; position:absolute;}
+.section .meta .meta-games ul { overflow:hidden; }
+.active_point {-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; filter: alpha(opacity=0); }
+.active_point.active {-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; filter: alpha(opacity=100); }
+.section-content_list li a:hover .active_point {-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; filter: alpha(opacity=100);}
+
+.slide-shadow {-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; filter: alpha(opacity=0); }
+.content_servers { margin:0 0 0 160px; }
+.content_servers-list a {position:relative;}
+.content_servers-list img {position:absolute;}
+.content_servers-list  {li { margin:0 16px 20px 0; border:1px solid #C3C5C6;  *display:inline !important; zoom:1 !important; vertical-align:top;  width:160px;  } }
+.content_servers-item.no-active span {display:block;  padding-left:20px;}
+.content_servers-item.no-active span img {display:block; position:absolute; left:10px; }
+.active_pro {    height: 40px; position: absolute; right: -4px;top: 100px; width: 37px; }
+.game_info-buy a.button {}
+.header {position:relative;  z-index:3000;}
+.section {position:relative; z-index:1000;}
+
+.content_servers-item.no-active  .active_pro {position:absolute; top:100px; right:-24px !important;}
+.content_servers-item {position:relative;}
+.content_servers-item.no-active figure {width:inherit;}
+.ie7 #menu { width:100%;  ul {  width:300px; li {  padding-left:15px; padding-right:15px;}}}
+.ie7 .multilevelpushmenu_wrapper {width:300px;}
+
+.ie7 .section .section-content_list  {width:978px;}
+.ie7 .section .section-content_list li {width:163px;}
+.ie7 .games {position:relative !important; }
+.ie7 .games-sub {top:100%; left:0; width:213px; li {  } a{  img { position:absolute; width:5px; height:9px; right:5px; }}}
+.ie7 .other {position:absolute !important; margin-left:55px !important;  a{ img {position:absolute; width:5px; height:8px; right:5px;}}}
+.ie7 .other-sub {top:100%; left:0;} 
+.ie7 .private_cab-message {position:relative !important;}
+.ie7 .private_cab-sub {top:95%; right:0; }
+.ie7 .inners-sub {width:606px !important;}
+.ie7 .inners-list {position:absolute;top:0; left:0px;  width:213px; li { width:100% !important;position:relative; left:-18px; top:0; height:40px !important; a{ margin:0 !important;} }}
+.ie7 .inners-view {float:right !important;}
+.ie7 
+.ie7 .section .content-other .content-list  {width:840px;}
+.ie7 .section .content-other li {width:140px;}
+.ie7 .section .content-other li ~ li {margin-left:16px;}
+.ie7 .social { width:108px; li { width:26px !important;}}
+.ie7  .section .section-content_list .section-content_item:hover {cursor:pointer;}
+
+/* not working now */
+
+.terms-check {
+    background: url(img/checkbox.png) no-repeat scroll 0 100% ;
+	position:relative;
+    cursor: pointer;
+    display: block;
+    height: 20px;
+    margin: 44px 0 0;
+    padding: 0 0 0 24px;
+	behavior:url(pie/PIE.htc);
+	
+}
+.checkOn {				}
+a.button {background:#357ce6; position:relative; border-radius:4px 4px 4px 4px; behavior:url(pie/PIE.htc);  &:hover {border-radius:4px 4px 4px 4px;  behavior:url(pie/PIE.htc);} &:active {border-radius:4px 4px 4px 4px; behavior:url(pie/PIE.htc);}   }				
+
+/* mobile menu		 */	
+.ie7 .fa-reorder {background:url($img-dir + "icon-center.png") 0 0 no-repeat !important; width:21px; height:24px;} 
+.ie7  .iconSpacing_ltr {background:url($img-dir + "icon-left.png") 0 0 no-repeat !important; width:6px; height:11px; vertical-align:middle; }
+.ie7 .fa-angle-right {background:url($img-dir + "icon-right.png") 0 0 no-repeat !important; width:6px; height:11px; vertical-align:middle;}
+.ie7 #menu ul li .games-mobile img {margin-top:-15px;}
+
+
+/* separate_page */
+
+.section .section-container .section-wrap .section_wrap-block .rating_wrapper .rating_wrapper-top .rating_wrapper-arrow  { height: 36px; overflow: hidden; width: 36px;	background:url($img-dir + "separate-arrow.png") no-repeat !important;}
+
+.section .section-container .section-wrap .section_wrap-block .map_info span {  background:url($img-dir + "game-views.png") no-repeat !important; }			
+
+.section .section-container .section-wrap .section_wrap-block .servers_connect .server_connect-position .server_connect-place span { -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)"; filter: alpha(opacity=70);}		
+.ie7 .section .section-container .section-wrap .section_wrap-block .servers_connect .server_connect-position .server_connect-place .server_connect-caption  {position:absolute; }
+.ie7 .section .section-container .section-wrap .section_wrap-block .servers_connect .server_connect-position .server_connect-place span { position:absolute; z-index:2000;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)"; filter: alpha(opacity=70);  }
+.ie7 .section .section-container .section-wrap .section_wrap-block .servers_connect .server_connect-position .server_connect-place i {position:absolute; z-index:2001;  width:100% !important; text-align:center; left:0;}
+								

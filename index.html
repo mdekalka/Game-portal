@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- META -->
+<meta charset="utf-8">
+
+<!-- FAVICON -->
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+<!-- SEO -->
+<meta name="Description" content="">
+<meta name="Rating" content="">
+<meta name="Author" content="">
+<meta name="Robots" content="index,follow">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- we can live with IE -->
+<!--[if lte IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<!--[if lt IE 9]>
+        <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+<!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="css/ie.css" /><![endif]-->
+<!--[if lte IE 7]><body class="ie7"><![endif]-->
+<!--[if lte IE 6 ]><script type="text/javascript">window.location.href="ie6_close/index_ru.html";</script><![endif]--> 
+
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="css/reset.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/responsive.css"> 
+<link rel="stylesheet" type="text/css" href="css/ui-select.css"> 
+
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.min.css">
+
+
+<title>Game portal</title>
+</head>
+<body>
+<!-- шапка-->
+<header class="header">
+	<div class="header-wrapper clearfix">
+		<a class="logo" href="#"><img src="img/main-logo.png" alt="" /></a>
+		
+		<div class="private_cab">
+			<span>16+</span>
+			<div class="private_cab-message">
+				<a href="#"><img src="img/user-avatar.png" alt=""/><span>3</span></a>
+				<ul class="private_cab-sub">
+					<li><a href="#">Мирсалихов Руслан <i>Москва</i></a></li>
+					<li><a href="#">Мои друзья </a></li>
+					<li><a href="#">Сообщения <span>3</span></a></li>
+					<li><a href="#">Изменить данные </a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="header_menu clearfix">
+			<nav class="header_menu-wrapper clearfix">
+				<ul class="header_menu-list clearfix">
+					<li class="games ">
+						<a href="#" >Игры</a>
+						<ul class="games-sub">
+							<li><a class="active" href="#">ММО</a></li>
+							<li>
+								<a class="inners" href="#">Шутеры<img src="img/arrow-menu.png" alt=""/></a>
+								<ul class="inners-sub">
+									<div class="inners-list">
+										<li><a href="#">Crysis 3</a></li>
+										<li><a href="#">Age of pandaria</a></li>
+										<li><a href="#">Hitman Absolution</a></li>
+										<li><a href="#">Halo 4</a></li>
+										<li><a href="#">Counter-Strike:GO</a></li>
+										<li><a href="#">Modern Warfare 3</a></li>
+										<li><a href="#">Battlefield 3</a></li>
+									</div>
+									<div class="inners-view">
+										<p>Aliens: Colonial Marines <br/> потерял позиции в <br/> чарте</p>
+									</div>
+								</ul>
+							</li>
+							<li><a href="#">Приключения</a></li>
+							<li><a href="#">Аркады</a></li>
+							<li><a class="active" href="#">Ролевые</a></li>
+							<li><a href="#">Симуляторы</a></li>
+							<li><a class="active" href="#">Стратегии</a></li>
+						</ul>
+					</li>
+					<li class="media"><a href="#">Медиа</a></li>
+					<li class="community"><a href="#">Сообщество</a></li>
+					<li class="other">
+						<a href="#"></a>	
+						<ul class="other-sub">
+							<li><a class="favorites" href="#">Избранное</a></li>
+							<li>
+								<a href="#">Работа<img src="img/arrow-other.png" alt=""/></a>
+								<ul class="work-sub">
+									<li><a href="#">sub</a></li>
+									<li><a href="#">sub</a></li>
+									<li><a href="#">sub</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">Помощь<img src="img/arrow-other.png" alt=""/></a>
+								<ul class="help-sub">
+									<li><a href="#">sub</a></li>
+									<li><a href="#">sub</a></li>
+									<li><a href="#">sub</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Реклама</a></li>
+							<li><a href="#">О проекте</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>	
+		<!-- 	<a href="#"><img src="img/search.png" alt=""/></a> -->
+		<form action="">
+			
+			<button name="search" type="submit"></button>
+			<input type="text" placeholder="search..." name="q"/>
+		</form>
+		</div>
+	</div>
+		<div class="header_menu-mobile">
+			<a class="logo-mobile" href="#"><img src="img/main-logo.png" alt="" /></a>	
+			<div id="menu">
+				<nav>
+					<h2><i class="fa fa-reorder"></i>Меню</h2>
+					<ul>
+						<li>
+							<a class="games-mobile" href="#"><i class="fa"><img src="img/games-unactive.png" alt=""/></i>Игры</a>
+							<h2><i class="fa"></i>Игры</h2>
+							<ul class="inners-mobile">
+								 <li>
+									<a class="active" href="#">ММО</a>
+								</li>
+								 <li>
+									<a href="#">Шутеры</a>
+									 <h2><i class="fa"></i>Шутеры</h2>
+									<ul class="inners_sub-mobile">
+										<li>
+											<a href="#">Crysis 3</a>
+										</li>
+										<li>
+											<a href="#">Age of pandoria</a>
+										</li>
+										<li>
+											<a href="#">Hitman Absolution</a>
+										</li>
+										<li>
+											<a href="#">Halo 4</a>
+										</li>
+										<li>
+											<a href="#">Counter-Strike:GO</a>
+										</li>
+										<li>
+											<a href="#">Modern Warfare 3</a>
+										</li>
+										<li>
+											<a href="#">Battlefield 3</a>
+										</li>							
+									</ul>
+								</li>
+								 <li>
+									<a href="#">Приключения</a>
+								</li>
+								 <li>
+									<a href="#">Аркады</a>
+								</li>
+								 <li>
+									<a class="active" href="#">Ролевые</a>
+								</li>
+								 <li>
+									<a href="#">Симуляторы</a>
+								</li>
+								 <li>
+									<a class="active" href="#">Стратегии</a>
+								</li>
+							</ul>	
+						</li>
+						<li>
+							<a class="media-mobile" href="#"><i class="fa"><img src="img/media.png" alt=""/></i>Медиа</a>
+						</li>
+						<li>
+							<a class="community-mobile" href="#"><i class="fa"><img src="img/community.png" alt=""/></i>Сообщество</a>
+						</li>
+						<li>
+							<a class="more-mobile" href="#"><i class="fa"><img src="img/more.png" alt=""/></i>Другое</a>
+							<h2><i class="fa"></i>Другое</h2>
+							<ul>
+								<li>
+									<a href="#">Работа</a>
+									<ul>
+										<li><a href="#">sub-1</a></li>
+										<li><a href="#">sub-2</a></li>
+										<li><a href="#">sub-3</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="#">Помощь</a>
+									<ul>
+										<li><a href="#">sub-1</a></li>
+										<li><a href="#">sub-2</a></li>
+										<li><a href="#">sub-3</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Реклама</a></li>
+								<li><a href="#">О проекте</a></li>
+								
+							</ul>
+						</li>
+						<li>
+							<a href="#">Личный кабинет</a>
+							<h2><i class="fa"></i>Личный кабинет</h2>
+							<ul>
+								<li><a href="#">Мирсалихов Руслан<span>Москва</span></a></li>
+								<li><a href="#">Мои друзья</a></li>
+								<li><a href="#">Сообщения<span class="menu_mobile-message">3</span></a></li>
+								<li><a href="#">Изменить данные</a></li>
+							</ul>
+						</li>
+						<li>
+							<a class="search-mobile" href="#"><i class="fa"><img src="img/search.png" alt=""/></i>Поиск</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+</header>
+<div class="meta">
+	<div class="meta-wrapper">
+		<div class="meta-all">
+			<a href="#">&larr; Все Игры</a>
+		</div>
+		<div class="meta-add">
+			<a href="#">Добавить сервер</a>
+		</div>
+		<div class="meta-games">
+			<div class="meta-box">
+				<a target=_blank class="active" href="separate.html">Сервера игры Battlefield 4 </a>
+			</div>
+			<div class="meta-box">
+				<a target=_blank href="separate.html">Избранные сервера</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- END шапка -->
+
+<!-- контент -->
+<section class="section">
+
+	<div class="section-container">
+	<div class="section-wrapper">
+		<div class="game_info">
+		
+			<a class="game_info-number" href="#"><img src="img/BF-logo.png" alt=""/><span>29</span></a>
+			<div class="game_info-description">
+				<h1>Battlefield 4</h1>
+				<p>Окунитесь в тотальную войну в сетевой игре Battlefield 4. Благодаря поддержке 64 игроков и 
+				7 уникальным режимам, доступным для 10 огромных карт, ничто не сравнится с масштабами и возможностями Battlefield 64</p>
+				<span><img src="img/platforms-btn.png" alt=""/></span> 
+			</div>
+ 
+			<div class="game_info-buy">
+				<a class="button button--big button--blue " href="#">Купить игру</a>
+				<a href="#"><span>Узнать об игре<br/> подробнее</span></a>
+				
+			</div>
+		</div>
+		<section class="section-content">
+			<ul class="section-content_list">
+				<li>
+					<a href="#" class="section-content_item">
+						<figure>
+							<img src="img/BF-img-1.png" /> 
+							<div class="slide-shadow"></div>
+							<figcaption>
+								<figcaption class="caption-info">
+									<h3>Respawn. LALEAGA...</h3>
+									<p>DeathMatch</p>
+									<p>14 / 48 игроков</p>
+								</figcaption>	
+								<span><img src="img/flag-ip.png" alt=""/><i>127.0.0.1: 2020</i></span>	
+							</figcaption>
+						</figure>
+						<span class="active_point"></span>
+					</a>
+				</li>
+			
+				<li>
+					<a href="#" class="section-content_item">
+						<figure>
+							<img src="img/BF-img-2.png" />
+							<div class="slide-shadow"></div>
+							<figcaption>
+								<figcaption class="caption-info">
+									<h3>Respawn. LALEAGA...</h3>
+									<p>DeathMatch</p>
+									<p>14 / 48 игроков</p>
+								</figcaption>
+								<span><img src="img/flag-ip.png" alt=""/><i>127.0.0.1: 2020</i></span>	
+								
+							</figcaption>
+						</figure>
+						<span class="active_point"></span>
+					</a>
+				</li>
+				<li>
+					<a href="#" class="section-content_item ">
+						<figure>
+							<img src="img/BF-img-3.png">
+							<div class="slide-shadow "></div>
+							<figcaption>
+								<figcaption class="caption-info">
+									<h3>Pitbull | DUST only  HEADSHOTZ TEAM  FTW</h3>
+									<p>DeathMatch</p>
+									<p>14 / 48 игроков</p>
+								</figcaption>
+								<span><img src="img/flag-ip.png" alt=""/><i>127.0.0.1: 2020</i></span>
+							</figcaption>
+						</figure>
+						<span class="active_point"></span>
+
+					</a>
+				</li>
+				<li>
+					<a href="#" class="section-content_item">
+						<figure>
+							<img src="img/BF-img-4.png">
+							<div class="slide-shadow"></div>
+							<figcaption>
+								<figcaption class="caption-info">
+									<h3>Respawn. LALEAGA...</h3>
+									<p>DeathMatch</p>
+									<p>14 / 48 игроков</p>
+								</figcaption>
+								<span><img src="img/flag-ip.png" alt=""/><i>127.0.0.1: 2020</i></span>	
+							</figcaption>
+						</figure>
+						<span class="active_point"></span>
+					</a>
+				</li>
+				<li>
+					<a href="#" class="section-content_item">
+						<figure>
+							<img src="img/BF-img-5.png">
+							<div class="slide-shadow"></div>
+							<figcaption>
+								<figcaption class="caption-info">
+									<h3>Respawn. LALEAGA...</h3>
+									<p>DeathMatch</p>
+									<p>14 / 48 игроков</p>
+								</figcaption>
+								<span><img src="img/flag-ip.png" alt=""/><i>127.0.0.1: 2020</i></span>	
+							</figcaption>
+						</figure>
+						<span class="active_point"></span>
+					</a>
+				</li>
+				<li>
+					<a href="#" class="section-content_item ">
+						<figure>
+							<img src="img/BF-img-6.png"> 
+							<div class="slide-shadow"></div>
+							<figcaption>
+								<figcaption class="caption-info">
+									<h3>Respawn. LALEAGA...</h3>
+									<p>DeathMatch</p>
+									<p>14 / 48 игроков</p>
+								</figcaption>
+								<span><img src="img/flag-ip.png" alt=""/><i>127.0.0.1: 2020</i></span>	
+							</figcaption>
+						</figure>
+						<span class="active_point"></span>
+					</a>
+				</li>				
+			</ul>
+			<div class="section-content_main">
+				<div class="gray_box">
+					<img src="img/content-water.png" alt=""/>
+				</div>
+				<div class="content_box">
+					<p>Сортировано  <a href="#" class="">по рейтингу</a><a href="#" class="active">по количеству игроков</a></p>
+					<div class="content_box-nav">
+						<div class="find_container">
+							<form action="">
+								<select id="place-select" class="b-core-ui-select__select_state_hide" name="" ">
+									<option value="" selected="selected">Россия</option>
+									<option value="">Украина</option>
+									<option value="">Беларусь</option>
+									<option value="">Хелл</option>
+								</select>								
+								<select id="map-select" class="b-core-ui-select__select_state_hide" name="" ">
+									<option value="" selected="selected">Все карты</option>
+									<option value="">Siberia Down</option>
+									<option value="">China Rising</option>
+									<option value="">Field Battle</option>
+								</select>									
+								<div class="check terms-check">
+									<input type="checkbox" name="terms-check" />
+									<label>Есть места</label>
+								</div>
+								<p>Показать сервера со свободными  слотами чтобы войти в игру</p>
+							</form>
+						</div>
+						<h5>Моды серверов</h5>
+						<ul>
+							<li><a href="#">Classic</a></li>
+							<li><a href="#">DeathMatch</a></li>
+							<li><a href="#">DeathRun</a></li>
+							<li><a href="#">Dust</a></li>
+							<li><a href="#">Fun</a></li>
+							<li><a href="#">GunGame</a></li>
+							<li><a href="#">Jail</a></li>
+							<li><a href="#">Jump</a></li>
+							<li><a href="#">Meat</a></li>
+							<li><a href="#">Public</a></li>
+							<li><a href="#">RolePlay</a></li>
+							<li><a href="#">ZombieMode</a></li>
+						</ul>
+					</div>
+					<aside>
+						<img src="img/aside-water.png" alt=""/>
+						<p>Подключите аккаунты <br/> в социальных сетях <br/> и узнайте, во что играют <br/>ваши друзья.</p>
+						<a href="#"><img src="img/vk-light.png" alt=""/></a>
+						<a href="#"><img src="img/facebook-light.png" alt=""/></a>
+						<a href="#"><img src="img/twitter-light.png" alt=""/></a>
+					</aside>
+					<div class="content_servers ">
+
+						<ul class="content_servers-list">
+							<li>
+								<a class="content_servers-item" href="#">
+									<figure>
+										<img src="img/server-img-1.jpg"> 
+										<figcaption>
+											<div class="figcaption-info">
+												<h3>Respawn. LALEAGA...</h3>
+												<p>Caspian Border</p>
+												<p>14 / 48 игроков</p>
+											</div>
+											<span class="country-ip"><img src="img/flag-ip.png" alt=""/>127.0.0.1:2020</span>
+										</figcaption>
+									</figure>
+									<span class="active_point active"></span>
+								</a>
+							</li>
+							<li>
+								<a class="content_servers-item " href="#">
+									<figure>
+										<img src="img/server-img-1.jpg"> 
+										<figcaption>
+											<div class="figcaption-info">
+												<h3>Pitbull | DUST only </h3>
+												<p>Zavod 33</p>
+												<p>14 / 48 игроков</p>
+											</div>
+											<span class="country-ip"><img src="img/flag-ip.png" alt=""/>127.0.0.1:2020</span>
+										</figcaption>
+									</figure>
+									<span class="active_point active"></span>
+								</a>
+							</li>							
+							<li>
+								<a class="content_servers-item" href="#">
+									<figure>
+										<img src="img/server-img-2.jpg"> 
+										<figcaption>
+											<div class="figcaption-info">
+												<h3>Respawn. LALEAGA...</h3>
+												<p>Siberia Down</p>
+												<p>14 / 48 игроков</p>
+											</div>
+										<span class="country-ip"><img src="img/flag-ip.png" alt=""/>127.0.0.1: 2020</span>
+										</figcaption>
+									</figure>
+									<span class="active_point active"></span>
+									<span class="active_pro"></span>
+								</a>
+							</li>
+							<li>
+								<a class="content_servers-item" href="#">
+									<figure>
+										<img src="img/server-img-3.jpg"> 
+										<figcaption>
+											<div class="figcaption-info">
+												<h3>Respawn. LALEAGA...</h3>
+												<p>Caspian Border</p>
+												<p>14 / 48 игроков</p>
+											</div>
+										<span class="country-ip"><img src="img/flag-ip.png" alt=""/>127.0.0.1: 2020</span>	
+										</figcaption>
+									</figure>
+									<span class="active_point active"></span>
+									<span class="active_pro"></span>
+								</a>
+							</li>
+							<li>
+								<a class="content_servers-item" href="#">
+									<figure>
+										<img src="img/server-img-4.jpg"> 
+										<figcaption>
+											<div class="figcaption-info">
+												<h3>Respawn. LALEAGA...</h3>
+												<p>Zavod 33</p>
+												<p>14 / 48 игроков</p>
+											</div>
+										<span class="country-ip"><img src="img/flag-ip.png" alt=""/>127.0.0.1: 2020</span>	
+										</figcaption>
+									</figure>
+									<span class="active_point active"></span>
+								</a>
+							</li>
+							<li>
+								<a class="content_servers-item" href="#">
+									<figure>
+										<img src="img/server-img-5.jpg">
+										<figcaption>
+											<div class="figcaption-info">
+												<h3>Respawn. LALEAGA...</h3>
+												<p>Cgina Rising</p>
+												<p>14 / 48 игроков</p>
+											</div>
+										<span class="country-ip"><img src="img/flag-ip.png" alt=""/>127.0.0.1: 2020</span>	
+										</figcaption>
+									</figure>
+									<span class="active_point active"></span>
+								</a>
+							</li>
+							<li>
+								<a class="content_servers-item" href="#">
+									<figure>
+										<img src="img/server-img-6.jpg"> 
+										<figcaption>
+											<div class="figcaption-info">
+												<h3>Respawn. LALEAGA...</h3>
+												<p>Field Battle</p>
+												<p>14 / 48 игроков</p>
+											</div>
+										<span class="country-ip"><img src="img/flag-ip.png" alt=""/>127.0.0.1: 2020</span>	
+										</figcaption>
+									</figure>
+									<span class="active_point active"></span>
+								</a>
+							</li>
+							<li>
+								<a class="content_servers-item" href="#">
+									<figure>
+										<img src="img/server-img-7.jpg"> 
+										<figcaption>
+											<div class="figcaption-info">
+												<h3>Respawn. LALEAGA...</h3>
+												<p>China Rising</p>
+												<p>14 / 48 игроков</p>
+											</div>
+										<span class="country-ip"><img src="img/flag-ip.png" alt=""/>127.0.0.1: 2020</span>	
+										</figcaption>
+									</figure>
+									<span class="active_point active"></span>
+								</a>
+							</li>
+							<li>
+								<a class="content_servers-item" href="#">
+									<figure>
+										<img src="img/server-img-8.jpg"> 
+										<figcaption>
+											<div class="figcaption-info">
+												<h3>Respawn. LALEAGA...</h3>
+												<p>Zavod 33</p>
+												<p>14 / 48 игроков</p>
+											</div>
+										<span class="country-ip"><img src="img/flag-ip.png" alt=""/>127.0.0.1: 2020</span>	
+										</figcaption>
+									</figure>
+									<span class="active_point active"></span>
+								</a>
+							</li>
+							<li>
+								<a class="content_servers-item" href="#">
+									<figure>
+										<img src="img/server-img-9.jpg">
+										<figcaption>
+											<div class="figcaption-info">
+												<h3>Respawn. LALEAGA...</h3>
+												<p>Zavod 33</p>
+												<p>14 / 48 игроков</p>
+											</div>
+										<span class="country-ip"><img src="img/flag-ip.png" alt=""/>127.0.0.1: 2020</span>	
+										</figcaption>
+									</figure>
+									<span class="active_point active"></span>
+								</a>
+							</li>
+							<li>
+								<a class="content_servers-item" href="#">
+									<figure>
+										<img src="img/server-img-10.jpg"> 
+										<figcaption>
+											<div class="figcaption-info">
+												<h3>Respawn. LALEAGA...</h3>
+												<p>China Rising</p>
+												<p>14 / 48 игроков</p>
+											</div>
+										<span class="country-ip"><img src="img/flag-ip.png" alt=""/>127.0.0.1: 2020</span>	
+										</figcaption>
+									</figure>
+									<span class="active_point active"></span>
+								</a>
+							</li>
+							<li>
+								<a class="content_servers-item" href="#">
+									<figure>
+										<img src="img/server-img-11.jpg"> 
+										<figcaption>
+											<div class="figcaption-info">
+												<h3>Respawn. LALEAGA...</h3>
+												<p>Forest Infiltration</p>
+												<p>14 / 48 игроков</p>
+											</div>
+										<span class="country-ip"><img src="img/flag-ip.png" alt=""/>127.0.0.1: 2020</span>	
+										</figcaption>
+									</figure>
+									<span class="active_point active"></span>
+								</a>
+							</li>
+							<li>
+								<a class="content_servers-item" href="#">
+									<figure>
+										<img src="img/server-img-12.jpg"> 
+										<figcaption>
+											<div class="figcaption-info">
+												<h3>Respawn. LALEAGA...</h3>
+												<p>Siberia Down</p>
+												<p>14 / 48 игроков</p>
+											</div>
+										<span class="country-ip"><img src="img/flag-ip.png" alt=""/>127.0.0.1: 2020</span>	
+										</figcaption>
+									</figure>
+									<span class="active_point active"></span>
+								</a>
+							</li>
+							<li>
+								<a class="content_servers-item" href="#">
+									<figure>
+										<img src="img/server-img-13.jpg"> 
+										<figcaption>
+											<div class="figcaption-info">
+												<h3>Respawn. LALEAGA...</h3>
+												<p>Siberia Down</p>
+												<p>14 / 48 игроков</p>
+											</div>	
+										<span class="country-ip"><img src="img/flag-ip.png" alt=""/>127.0.0.1: 2020</span>	
+										</figcaption>
+									</figure>
+									<span class="active_point active"></span>
+								</a>
+							</li>
+							<li>
+								<a class="content_servers-item" href="#">
+									<figure>
+										<img src="img/server-img-14.jpg"> 
+										<figcaption>
+											<div class="figcaption-info">
+												<h3>Respawn. LALEAGA...</h3>
+												<p>Field Battle</p>
+												<p>14 / 48 игроков</p>
+											</div>
+										<span class="country-ip"><img src="img/flag-ip.png" alt=""/>127.0.0.1: 2020</span>	
+										</figcaption>
+									</figure>
+									<span class="active_point active"></span>
+								</a>
+							</li>
+							<li>
+								<a class="content_servers-item" href="#">
+									<figure>
+										<img src="img/server-img-15.jpg"> 
+										<figcaption>
+											<div class="figcaption-info">
+												<h3>Respawn. LALEAGA...</h3>
+												<p>Caspian Border</p>
+												<p>14 / 48 игроков</p>
+											</div>
+										<span class="country-ip"><img src="img/flag-ip.png" alt=""/>127.0.0.1: 2020</span>	
+										</figcaption>
+									</figure>
+									<span class="active_point active"></span>
+								</a>
+							</li>
+							<li>
+								<a class="content_servers-item" href="#">
+									<figure>
+										<img src="img/server-img-16.jpg"> 
+										<figcaption>
+											<div class="figcaption-info">
+												<h3>Respawn. LALEAGA...</h3>
+												<p>Subway Takeout</p>
+												<p>14 / 48 игроков</p>
+											</div>
+										<span class="country-ip"><img src="img/flag-ip.png" alt=""/>127.0.0.1: 2020</span>	
+										</figcaption>
+									</figure>
+									<span class="active_point active"></span>
+								</a>
+							</li>
+						</ul>	
+						<div class="paginator-wrapper">
+							<ul class="paginator">
+								<li><a class="page-left page-active" href="#">1</a></li>
+								<li><a class="page-normal" href="#">2</a></li>
+								<li><a class="page-normal" href="#">3</a></li>
+								<li><a class="page-right" href="#">4</a></li>
+								<li><a class="page-left" href="#">5</a></li>
+								<li><a class="page-normal" href="#">6</a></li>
+								<li><a class="page-right" href="#">7</a></li>
+								<li><a class="page-last" href="#">Последняя</a></li>
+							</ul>	
+						</div>							
+					</div>
+
+				<div class="content-other">
+					<span>Другие игры этой категории</span>
+					
+					<ul class="content-list">
+						<li>
+							<a href="#">
+								<figure>
+									<img src="img/meta-img-1.png" alt=""/>
+									<figcaption>
+										<p>Call Of Duty: MW3 </p>
+										<span>Multiplayer</span>
+									</figcaption>
+								</figure>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<figure>
+									<img src="img/meta-img-2.png" alt=""/>
+									<figcaption>
+										<p>Counter-Strike:GO  </p>
+										<span>Multiplayer</span>
+									</figcaption>
+								</figure>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<figure>
+									<img src="img/meta-img-3.png" alt=""/>
+									<figcaption>
+										<p>HL2:Deathmatch </p>
+										<span>Multiplayer</span>
+									</figcaption>
+								</figure>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<figure>
+									<img src="img/meta-img-4.png" alt=""/>
+									<figcaption>
+										<p>Minecraft </p>
+										<span>Multiplayer</span>
+									</figcaption>
+								</figure>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<figure>
+									<img src="img/meta-img-5.png" alt=""/>
+									<figcaption>
+										<p>Unreal III </p>
+										<span>Multiplayer</span>
+									</figcaption>
+								</figure>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<figure>
+									<img src="img/meta-img-6.png" alt=""/>
+									<figcaption>
+										<p>Quake IV </p>
+										<span>Multiplayer</span>
+									</figcaption>
+								</figure>
+							</a>
+						</li>						
+					</ul>			
+				</div>	
+				</div>
+			</div>
+		</section>
+	</div>	
+	</div>
+</section>
+<!-- END контент -->
+
+<!-- футтер  -->
+<footer class="footer">
+	<div class="footer-wrapper">
+		<div class="footer-info clearfix">
+			<span>©  2008-2013 MMOTOP Game Controller </span>
+			<a href="#">Карта сайта<img src="img/read-more.png" alt=""/></a>
+			<ul class="social ">
+				<li><a href="#"><img src="img/vk-footer.png" alt=""/></a></li>
+				<li><a href="#"><img src="img/facebook-footer.png" alt=""/></a></li>
+				<li><a href="#"><img src="img/twitter-footer.png" alt=""/></a></li>
+			</ul>
+		</div>
+		<ul>
+			<li><a href="#">Связаться с нами</a></li>
+			<li><a href="#">Пользовательское соглашение</a></li>
+			<li><a href="#">Помощь</a></li>
+			<li><a href="#">Контактная информация</a></li>
+		</ul>
+		<span>Использование материалов разрешено только с предварительного согласия правообладателей.
+			Все права на картинки и тексты в разделе Новости принадлежат их авторам.</span>
+	</div>
+
+</footer>
+<!-- END футтер -->
+
+	<!-- JS -->
+	<script src="js/libs/jquery-1.7.1.min.js" type="text/javascript"></script>
+
+ 	<script type="text/javascript" src="//oss.maxcdn.com/libs/modernizr/2.6.2/modernizr.min.js"></script>
+	<script src="js/libs/respond.js" type="text/javascript"></script>
+	<script src="js/libs/selectivizr-min.js" type="text/javascript"></script> 
+	<script src="js/libs/jquery.multilevelpushmenu.min.js" type="text/javascript"></script>
+	<script src="js/libs/basichtml.js" type="text/javascript"></script>
+	<script src="js/main.js" type="text/javascript"></script>
+		<script src="js/libs/jquery.core-ui-select.js" type="text/javascript"></script>
+	
+</body>
+</html>
